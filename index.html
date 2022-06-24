@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web fundamental</title>
+        <style type="text/css">
+            body{
+                margin: 0px;
+            }
+            header{
+                width: 100%;
+                height: 200px;
+                background: black;
+                color: white;
+                padding: 10px;
+            }
+            header nav a{
+                color: white;
+            }
+            section {
+                min-height: 800px;
+            }
+            #p1{
+                color: maroon;
+            }
+            #p2{
+                color: navy;
+            }
+            .abuabu{
+                background: gray;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Bagian kepala halaman</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="aboutus.html#sectionabout">About Us - section about</a>
+                <a href="https://en.wikipedia.org/wiki/Gustavo_Petro">Ke wikipedia</a>
+                <a href="#section1">Ke section 1</a>
+                <a href="#section2">Ke section 2</a>
+            </nav>
+        </header>
+        <section id="section1" class="abuabu">
+            <h1>Section 1</h1>
+            <br><br><p id="p1">Paragraf 1</p><br><p id="p2">Paragraf 2</p>
+        </section>
+        <section id="section2" class="abuabu">
+            <h1>Section 2</h1>
+            <br><br>Line 1<br>Line 2
+        </section>
+        <footer>
+            Bagian bawah halaman
+        </footer>
+    </body>
+</html>
